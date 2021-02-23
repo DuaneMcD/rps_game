@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(59, 61, 61);
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+h1 {
+  font-size: 1.25em;
+}
+h2 {
+  font-size: 1em;
+}
+#mainContainer {
+  flex: 1;
+}
+.selectWeapon {
+  max-height: 100px;
+  max-width: 10px;
+}
+#hammer {
+  width: 200px;
+  height: 200px;
+}
+#sword {
+  width: 200px;
+  height: 200px;
+}
+#shield {
+  width: 200px;
+  height: 200px;
+}
