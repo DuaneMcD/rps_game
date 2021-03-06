@@ -47,7 +47,7 @@ function updateScore(playerChoice) {
 }
 function gameResult(playerChoice) {
     computerChoice = computerSelect();
-    setTimeout(promptReset, 4200)
+    setTimeout(promptReset, 6200)
         switch (computerChoice+playerChoice) {
             case "hammershield":
                return "Win!"
