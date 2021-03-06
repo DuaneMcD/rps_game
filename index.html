@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hammer Shield Sword</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <div id="mainContainer">
@@ -13,13 +14,12 @@
         Fierce Knight,<br />
         Your beloved castle is under siege! <br />
       </h1>
-      <h2>Select Your Weapon:</h2>
-      <div class="selectWeapon" id="selectWeapon">
-        <img id="hammer" src="images/hammer.png" />
-        <img id="shield" src="images/shield.png" />
-        <img id="sword" src="images/sword.png" />
+      <h2 class="prompt" id="prompt"></h2>
+      <div class="weapons" id="weapons">
+        <img id="hammer" title="hammer" src="images/hammer.png" />
+        <img id="shield" title="shield" src="images/shield.png" />
+        <img id="sword" title="sword" src="images/sword.png" />
       </div>
-      <p>Computer has selected:</p>
     </div>
   </body>
 </html>
