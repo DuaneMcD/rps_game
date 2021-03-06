@@ -21,7 +21,7 @@ function countDown (playerChoice) {
     (function countdown() {
         APP.prompt.textContent = seconds
         if(seconds -->0)
-            setTimeout(countdown, 55);
+            setTimeout(countdown, 500);
         else updateScore(playerChoice);
     }
     )()
