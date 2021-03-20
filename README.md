@@ -10,7 +10,7 @@ Click to<a href="https://duanemcd.github.io/rps_game/"> Play Hammer | Shield | S
 ## Summary
 A Java Script Rock Paper Scissors webapp. Handcoded and simple. Can you beat the computer?!
 
-![screenshot]screenshot.png
+![screenshot](screenshot.png)
 
 ## Future Features
 <ul>
